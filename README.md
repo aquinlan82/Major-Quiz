@@ -1,9 +1,9 @@
-# # What Major Should I Be Quiz
+# What Major Should I Be Quiz
 
 **What does it do?**
 Many incoming college students are unsure what they want to study, which creates unhelpful pressure to decide on something "before its too late". The New Student Registration Office tasked me with creating a quiz that uses current student survey responses to aid new students in making that decision. Since there are already plenty of quizzes that do this by asking leading questions and a simple scoring system, I also wanted to take a new approach that would hopefully perform better than a Buzzfeed quiz.
 
-**How does it work**
+**How does it work?**
 The notebook contains my conclusions about the data. During exploration, I created a correlation matrix and some graphs to more easily visualize what I was working with. I was excited to find that there was a descent correlation between a few of the questions and the actual majors of students! 
 ![Correlation Matrix](img/correlaiton.png)
 Using that I built a simple regression model to predict the major based on the answers to these questions. After tweaking the model, I saved the model so it could be loaded and run any time a person finishes the quiz, and presents them with the result.
